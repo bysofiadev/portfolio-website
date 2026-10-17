@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects | Sofia Vieira - Frontend Developer</title>
+    <meta name="description" content="All frontend projects by Sofia Vieira, built with HTML, CSS and JavaScript.">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="assets/images/apple-icon.png"/>
+    <link rel="canonical" href="https://bysofiadev.vercel.app" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="All Projects | Sofia Vieira - Frontend Developer">
+    <meta property="og:description" content="All frontend projects by Sofia Vieira, built with HTML, CSS and JavaScript.">
+    <meta property="og:url" content="https://bysofiadev.vercel.app/allprojects.html">
+    <meta property="og:image" content="https://bysofiadev.vercel.app/assets/images/hero-section.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sofia Vieira - Frontend Developer">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="All Projects | Sofia Vieira - Frontend Developer">
+    <meta name="twitter:description" content="All frontend projects by Sofia Vieira, built with HTML, CSS and JavaScript.">
+    <meta name="twitter:image" content="https://bysofiadev.vercel.app/assets/images/hero-section.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <!-- ── NAV ── -->
+    <header class="primary-header">
+      <div class="header-container">
+        <div class="column-left">
+          <a href="index.html">
+            <h2>SOFIA</h2>
+          </a>
+        </div>        
+        <div class="column-right">
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="index.html#projects" data-target="allprojects">Projects</a>
+              </li>
+              <li>
+                <a href="index.html#about-me">About Me</a>
+              </li>
+              <li>
+                <a href="index.html#technologies-and-tools">Stack</a>
+              </li>
+              <li>
+                <a href="index.html#skills">What I Do</a>
+              </li>
+              <li>
+                <a href="index.html#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menuMobileWrapper">
+            <button class="btnOpenMenuMobile">
+              <svg 
+                width="32" 
+                height="32" 
+                viewBox="0 0 32 32" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path 
+                  d="M5.33337 6.66667H26.6667" 
+                  stroke="white" 
+                  stroke-width="4" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round"
+                />
+                <path 
+                  d="M5.33337 16H26.6667" 
+                  stroke="white" 
+                  stroke-width="4" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round"
+                />
+                <path 
+                  d="M5.33337 25.3333H26.6667" 
+                  stroke="white" 
+                  stroke-width="4" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <div class="drawerMenu">
+              <div>
+                <button class="btnCloseMenuMobile">
+                  <svg 
+                    width="37" 
+                    height="37" 
+                    viewBox="0 0 37 37" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M29.2917 4.625H7.70833C6.00546 4.625 4.625 6.00546 4.625 7.70833V29.2917C4.625 30.9945 6.00546 32.375 7.70833 32.375H29.2917C30.9945 32.375 32.375 30.9945 32.375 29.2917V7.70833C32.375 6.00546 30.9945 4.625 29.2917 4.625Z" stroke="#42446E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M23.125 4.625V32.375" stroke="#42446E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12.3334 13.875L16.9584 18.5L12.3334 23.125" stroke="#42446E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <nav>
+                  <ul class="nav-links">
+                    <li>
+                      <a href="index.html" aria-current="page" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                      <a href="allprojects.html" class="nav-link">Projects</a>
+                    </li>
+                    <li>
+                      <a href="index.html#about-me" class="nav-link">About Me</a>
+                    </li>
+                    <li>
+                      <a href="index.html#technologies-and-tools" class="nav-link">Stack</a>
+                    </li>
+                    <li>
+                      <a href="index.html#skills" class="nav-link">What I Do</a>
+                    </li>
+                    <li>
+                      <a href="index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <main>
+        <!-- ── ALL PROJECTS ── -->
+        <section id="allprojects" class="allprojects-section">
+          <header class="allprojects-header">
+            <div class="line-title"></div>
+            <h3>All Projects</h3>
+            <div class="line-title"></div>
+          </header>
+          <div class="allprojects-container">
+            <div class="project-container">
+              <div class="project-image">
+                <img src="assets/images/project-lumio-studio.png" alt="Lumio Studio">
+              </div>
+              <div class="project-description">
+                <h5>Lumio Studio</h5>
+                <p>
+                  Lumio Studio is a landing page for a fictional digital content agency, built from scratch with HTML, 
+                  CSS and vanilla JavaScript. This project challenged me to create a polished, production-quality layout 
+                  without frameworks — implementing dark/light mode with CSS custom properties, infinite CSS carousels, 
+                  fluid typography with clamp(), and a fully responsive layout across mobile, tablet and desktop.
+                </p>
+                <div class="project-badges">
+                  <div class="badge">HTML</div> 
+                  <div class="badge">CSS</div> 
+                  <div class="badge">Javascript</div>
+                  <div class="badge">Responsive design</div> 
+                </div> 
+                <div class="project-links">
+                  <div class="link">
+                    <a href="https://bysofiadev.github.io/lumio-studio/" target="_blank" rel="noopener noreferrer">
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="16" 
+                        height="16" 
+                        viewBox="0 0 16 16" 
+                        fill="none">
+                        <path d="M9.0341 6.63246C8.39704 5.99567 7.53316 5.63794 6.6324 5.63794C5.73165 5.63794 4.86777 5.99567 4.2307 6.63246L1.82823 9.03416C1.19116 9.67123 0.833252 10.5353 0.833252 11.4362C0.833252 12.3372 1.19116 13.2013 1.82823 13.8383C2.4653 14.4754 3.32936 14.8333 4.23032 14.8333C5.13127 14.8333 5.99533 14.4754 6.6324 13.8383L7.83325 12.6375" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.63232 9.03419C7.26939 9.67099 8.13327 10.0287 9.03402 10.0287C9.93478 10.0287 10.7987 9.67099 11.4357 9.03419L13.8382 6.63249C14.4753 5.99542 14.8332 5.13136 14.8332 4.23041C14.8332 3.32945 14.4753 2.46539 13.8382 1.82832C13.2011 1.19125 12.3371 0.833344 11.4361 0.833344C10.5352 0.833344 9.67109 1.19125 9.03402 1.82832L7.83317 3.02917" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <div>Live Preview</div>
+                    </a>
+                  </div>
+                  <div class="link">
+                    <a href="https://github.com/bysofiadev/lumio-studio" target="_blank" rel="noopener noreferrer">
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="22" 
+                        height="23" 
+                        viewBox="0 0 22 23"
+                        fill="black">
+                        <path d="M4.99652 4.8233C4.70705 4.09045 4.71863 3.25306 4.84715 2.48689C5.73173 2.75058 6.56263 3.16662 7.30186 3.71598C7.62607 3.96179 8.05101 4.04105 8.44701 3.92274C9.46298 3.62043 10.5184 3.4687 11.5791 3.47246C12.6918 3.47246 13.7489 3.63327 14.7088 3.92159C15.1048 4.04105 15.5298 3.96065 15.8528 3.71483C16.5917 3.16559 17.4222 2.74955 18.3064 2.48574C18.4349 3.25191 18.4453 4.0893 18.1581 4.82101C17.9845 5.2621 18.0713 5.76982 18.399 6.1305C19.2373 7.05289 19.6842 8.11312 19.6842 9.21585C19.6842 11.6442 17.4032 14.0254 13.7397 14.7502C12.8226 14.9317 12.4649 16.0769 13.1665 16.7328C13.6169 17.1532 13.8948 17.7459 13.8948 18.4053V21.8513C13.8948 22.156 14.0168 22.4481 14.234 22.6636C14.4511 22.879 14.7456 23 15.0527 23C15.3598 23 15.6543 22.879 15.8715 22.6636C16.0886 22.4481 16.2106 22.156 16.2106 21.8513V18.4053C16.2106 17.7505 16.0717 17.128 15.8239 16.564C19.3172 15.3613 22 12.6538 22 9.21585C22 7.66858 21.4396 6.24652 20.5098 5.05534C20.753 4.11342 20.731 3.16461 20.6383 2.43635C20.5561 1.7839 20.4415 0.929282 19.9783 0.419268C19.2894 -0.337711 18.1489 0.107976 17.3384 0.382511C16.4685 0.673378 15.6412 1.07699 14.8779 1.58288C13.8 1.30958 12.6916 1.17257 11.5791 1.1751C10.4281 1.1751 9.31773 1.31868 8.27796 1.58403C7.51466 1.07814 6.68734 0.674527 5.81746 0.383659C5.00694 0.107977 3.86527 -0.337711 3.17633 0.419268C2.70392 0.938471 2.6055 1.72532 2.52097 2.39385L2.51518 2.4375C2.42255 3.16691 2.40171 4.11687 2.64487 5.05993C1.71856 6.24996 1.15815 7.66973 1.15815 9.21585C1.15815 12.6527 3.84096 15.3613 7.33428 16.564C7.08187 17.1376 6.95027 17.7564 6.94755 18.3823L6.75303 18.4214C5.92283 18.5351 5.39136 18.4329 5.0301 18.2812C4.15011 17.9114 3.69622 16.9798 3.14275 16.2676C2.79771 15.8254 2.29519 15.2728 1.52404 15.0178C1.37974 14.9702 1.22738 14.9512 1.07568 14.9619C0.923977 14.9726 0.775892 15.0129 0.63988 15.0804C0.365192 15.2168 0.156358 15.4558 0.0593175 15.7449C-0.0377226 16.0341 -0.0150192 16.3496 0.122433 16.6221C0.259886 16.8946 0.500828 17.1018 0.792256 17.198C1.43835 17.4117 1.8853 18.5098 2.29519 18.9969C2.72707 19.5115 3.30138 20.049 4.12464 20.3959C4.91431 20.7291 5.84177 20.8474 6.94755 20.713V21.8513C6.94755 22.156 7.06954 22.4481 7.28669 22.6636C7.50383 22.879 7.79834 23 8.10543 23C8.41252 23 8.70703 22.879 8.92418 22.6636C9.14132 22.4481 9.26331 22.156 9.26331 21.8513V18.4053C9.26331 17.7459 9.5412 17.1532 9.99162 16.7328C10.6945 16.0758 10.3355 14.9317 9.41847 14.7502C5.75377 14.0254 3.47391 11.6442 3.47391 9.21585C3.47391 8.11542 3.91969 7.05519 4.75684 6.1328C5.08452 5.77211 5.1702 5.2644 4.99652 4.8233Z" fill="white"/>
+                      </svg>
+                      <div>View Code</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-container reveal-on-scroll">
+              <div class="project-image">
+                <img src="assets/images/project-ultralinx.png" alt="Ultralinx Website Clone">
+              </div>
+              <div class="project-description">
+                <h5>Ultralinx Clone</h5>
+                <p>
+                  A fully responsive landing page for a creative agency, built from scratch with pure HTML and CSS. 
+                  Features include an auto-scrolling image carousel, an animated client logo strip with edge fade-out 
+                  using CSS mask-image, and a contact form — all without a single line of JavaScript. 
+                  Focused on CSS animations, semantic markup, and mobile-first responsive design.
+                </p>
+                <div class="project-badges">
+                  <div class="badge">HTML</div> 
+                  <div class="badge">CSS</div> 
+                  <div class="badge">Responsive design</div> 
+                </div> 
+                <div class="project-links">
+                  <div class="link">
+                    <a href="https://bysofiadev.github.io/ultralinx-clone/" target="_blank" rel="noopener noreferrer">
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="16" 
+                        height="16" 
+                        viewBox="0 0 16 16" 
+                        fill="none">
+                        <path d="M9.0341 6.63246C8.39704 5.99567 7.53316 5.63794 6.6324 5.63794C5.73165 5.63794 4.86777 5.99567 4.2307 6.63246L1.82823 9.03416C1.19116 9.67123 0.833252 10.5353 0.833252 11.4362C0.833252 12.3372 1.19116 13.2013 1.82823 13.8383C2.4653 14.4754 3.32936 14.8333 4.23032 14.8333C5.13127 14.8333 5.99533 14.4754 6.6324 13.8383L7.83325 12.6375" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.63232 9.03419C7.26939 9.67099 8.13327 10.0287 9.03402 10.0287C9.93478 10.0287 10.7987 9.67099 11.4357 9.03419L13.8382 6.63249C14.4753 5.99542 14.8332 5.13136 14.8332 4.23041C14.8332 3.32945 14.4753 2.46539 13.8382 1.82832C13.2011 1.19125 12.3371 0.833344 11.4361 0.833344C10.5352 0.833344 9.67109 1.19125 9.03402 1.82832L7.83317 3.02917" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <div>Live Preview</div>
+                    </a>
+                  </div>
+                  <div class="link">
+                    <a href="https://github.com/bysofiadev/ultralinx-clone" target="_blank" rel="noopener noreferrer">
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="22" 
+                        height="23" 
+                        viewBox="0 0 22 23"
+                        fill="black">
+                        <path d="M4.99652 4.8233C4.70705 4.09045 4.71863 3.25306 4.84715 2.48689C5.73173 2.75058 6.56263 3.16662 7.30186 3.71598C7.62607 3.96179 8.05101 4.04105 8.44701 3.92274C9.46298 3.62043 10.5184 3.4687 11.5791 3.47246C12.6918 3.47246 13.7489 3.63327 14.7088 3.92159C15.1048 4.04105 15.5298 3.96065 15.8528 3.71483C16.5917 3.16559 17.4222 2.74955 18.3064 2.48574C18.4349 3.25191 18.4453 4.0893 18.1581 4.82101C17.9845 5.2621 18.0713 5.76982 18.399 6.1305C19.2373 7.05289 19.6842 8.11312 19.6842 9.21585C19.6842 11.6442 17.4032 14.0254 13.7397 14.7502C12.8226 14.9317 12.4649 16.0769 13.1665 16.7328C13.6169 17.1532 13.8948 17.7459 13.8948 18.4053V21.8513C13.8948 22.156 14.0168 22.4481 14.234 22.6636C14.4511 22.879 14.7456 23 15.0527 23C15.3598 23 15.6543 22.879 15.8715 22.6636C16.0886 22.4481 16.2106 22.156 16.2106 21.8513V18.4053C16.2106 17.7505 16.0717 17.128 15.8239 16.564C19.3172 15.3613 22 12.6538 22 9.21585C22 7.66858 21.4396 6.24652 20.5098 5.05534C20.753 4.11342 20.731 3.16461 20.6383 2.43635C20.5561 1.7839 20.4415 0.929282 19.9783 0.419268C19.2894 -0.337711 18.1489 0.107976 17.3384 0.382511C16.4685 0.673378 15.6412 1.07699 14.8779 1.58288C13.8 1.30958 12.6916 1.17257 11.5791 1.1751C10.4281 1.1751 9.31773 1.31868 8.27796 1.58403C7.51466 1.07814 6.68734 0.674527 5.81746 0.383659C5.00694 0.107977 3.86527 -0.337711 3.17633 0.419268C2.70392 0.938471 2.6055 1.72532 2.52097 2.39385L2.51518 2.4375C2.42255 3.16691 2.40171 4.11687 2.64487 5.05993C1.71856 6.24996 1.15815 7.66973 1.15815 9.21585C1.15815 12.6527 3.84096 15.3613 7.33428 16.564C7.08187 17.1376 6.95027 17.7564 6.94755 18.3823L6.75303 18.4214C5.92283 18.5351 5.39136 18.4329 5.0301 18.2812C4.15011 17.9114 3.69622 16.9798 3.14275 16.2676C2.79771 15.8254 2.29519 15.2728 1.52404 15.0178C1.37974 14.9702 1.22738 14.9512 1.07568 14.9619C0.923977 14.9726 0.775892 15.0129 0.63988 15.0804C0.365192 15.2168 0.156358 15.4558 0.0593175 15.7449C-0.0377226 16.0341 -0.0150192 16.3496 0.122433 16.6221C0.259886 16.8946 0.500828 17.1018 0.792256 17.198C1.43835 17.4117 1.8853 18.5098 2.29519 18.9969C2.72707 19.5115 3.30138 20.049 4.12464 20.3959C4.91431 20.7291 5.84177 20.8474 6.94755 20.713V21.8513C6.94755 22.156 7.06954 22.4481 7.28669 22.6636C7.50383 22.879 7.79834 23 8.10543 23C8.41252 23 8.70703 22.879 8.92418 22.6636C9.14132 22.4481 9.26331 22.156 9.26331 21.8513V18.4053C9.26331 17.7459 9.5412 17.1532 9.99162 16.7328C10.6945 16.0758 10.3355 14.9317 9.41847 14.7502C5.75377 14.0254 3.47391 11.6442 3.47391 9.21585C3.47391 8.11542 3.91969 7.05519 4.75684 6.1328C5.08452 5.77211 5.1702 5.2644 4.99652 4.8233Z" fill="white"/>
+                      </svg>
+                      <div>View Code</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- ── FOOTER ── -->
+      <footer class="footer-section">
+        <p>&copy; <span id="year">2026</span> Sofia Vieira. All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>  
